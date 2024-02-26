@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: Roboto-Light;
+	src: url(/public/fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Thin;
+	src: url(/public/fonts/Roboto-Thin.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Medium;
+	src: url(/public/fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+	font-family: Roboto-Regular;
+	src: url(/public/fonts/Roboto-Regular.ttf);
+}
+
+html,
+body {
+	padding: 0;
+	margin: 0;
+	color: white;
+	position: absolute;
+	width: 100%;
+	height: 200vh;
+	background-color: #000000;
+}
+
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.roboto-light {
+	font-family: Roboto-light;
+}
+
+.roboto-medium {
+	font-family: Roboto-Medium;
+}
+
+.roboto-thin {
+	font-family: Roboto-Thin;
+}
+
+.roboto-regular {
+	font-family: Roboto-regular;
+}
